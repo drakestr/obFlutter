@@ -25,6 +25,7 @@ dependencies:
     sdk: flutter
 
   flutter_custom_clippers: ^2.0.0
+  flutter_riverpod: ^0.14.0+3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -47,9 +48,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/image/imghome.png
+    - assets/image/car_home.png
     - assets/image/user.png
-    - assets/image/carDetail.png
+    - assets/image/car_sport.png
+    - assets/image/car_classic.png
+    - assets/image/car_sport.png
+    - assets/image/car_flying.png
+    - assets/image/car_electric.png
+
 
   fonts:
     - family: Poppins

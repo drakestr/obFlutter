@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                                 alignment: Alignment.center,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
-                                  color: _swithcValue ? Color(0XFF1814E4) : Color(0XFFFA7F35),
+                                  color: Theme.of(context).buttonColor,
                                 ),
                                 height: 57,
                                 width: 305,

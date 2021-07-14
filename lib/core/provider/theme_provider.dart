@@ -7,6 +7,7 @@ final darkTheme = ThemeData(
     primaryColor: const Color(0xFF191D21),
     brightness: Brightness.dark,
     accentColor: Colors.white,
+    buttonColor: Color(0XFF1814E4),
     accentIconTheme: IconThemeData(color: const Color(0xFF191D21)),
     dividerColor: const Color(0xFF191D21),
     fontFamily: 'Poppins');
@@ -17,6 +18,7 @@ final lightTheme = ThemeData(
     scaffoldBackgroundColor: Colors.white,
     brightness: Brightness.light,
     accentColor: Colors.black,
+    buttonColor: Color(0XFFFA7F35),
     accentIconTheme: IconThemeData(color: Colors.white),
     dividerColor: Colors.white54,
     fontFamily: 'Poppins');
